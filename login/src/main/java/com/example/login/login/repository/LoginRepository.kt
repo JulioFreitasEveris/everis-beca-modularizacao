@@ -1,8 +1,8 @@
-package com.niemietz.everis.beca.modularizacao.login.repository
+package com.example.login.login.repository
 
-import com.niemietz.everis.beca.modularizacao.login.interfaces.LoginAPI
-import com.niemietz.everis.beca.modularizacao.login.model.AuthenticateRequest
-import com.niemietz.everis.beca.modularizacao.login.model.GETSessionRequest
+import com.example.login.login.interfaces.LoginAPI
+import com.example.login.login.model.AuthenticateRequest
+import com.example.login.login.model.GETSessionRequest
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

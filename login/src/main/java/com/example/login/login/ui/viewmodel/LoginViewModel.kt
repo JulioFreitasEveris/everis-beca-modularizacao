@@ -1,4 +1,4 @@
-package com.niemietz.everis.beca.modularizacao.login.ui.viewmodel
+package com.example.login.login.ui.viewmodel
 
 import android.content.Context
 import android.provider.Settings.Secure
@@ -7,13 +7,13 @@ import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
 import com.niemietz.everis.beca.core.InternetChecker.isConnected2Internet
 import com.niemietz.everis.beca.core.Session
-import com.niemietz.everis.beca.modularizacao.login.events.LoginEvents
-import com.niemietz.everis.beca.modularizacao.login.events.LoginInteractor
-import com.niemietz.everis.beca.modularizacao.login.states.LoginStates
-import com.niemietz.everis.beca.modularizacao.login.repository.LoginRepository
-import com.niemietz.everis.beca.modularizacao.login.model.AuthenticateRequest
-import com.niemietz.everis.beca.modularizacao.login.model.AuthenticateResponseContent
-import com.niemietz.everis.beca.modularizacao.login.model.GETSessionRequest
+import com.example.login.login.events.LoginEvents
+import com.example.login.login.events.LoginInteractor
+import com.example.login.login.states.LoginStates
+import com.example.login.login.repository.LoginRepository
+import com.example.login.login.model.AuthenticateRequest
+import com.example.login.login.model.AuthenticateResponseContent
+import com.example.login.login.model.GETSessionRequest
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
