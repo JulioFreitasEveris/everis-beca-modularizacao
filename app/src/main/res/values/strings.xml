@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Modularizacao Login</string>
-
+    <string name="login_realized_text">Login Realizado com Sucesso !!!</string>
     <string name="go_to_login">Fazer login</string>
-
 </resources>
